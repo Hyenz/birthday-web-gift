@@ -7,10 +7,9 @@ This project is designed as a personalized digital gift featuring animations, me
 ---
 
 ## 💖 Live Demo
-> (Add your deployed link here later)
+> https://hyenz.is-a.dev
 
-Example:
-https://your-project.vercel.app
+
 
 ---
 
