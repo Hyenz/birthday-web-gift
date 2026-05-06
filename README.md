@@ -44,7 +44,7 @@ All content is managed in a single configuration file for easy editing:
 
 ```js
 // config.js
-xport const config = {
+export const config = {
   girlfriendName: "Hyenz",
   heroTitle: "Happy Birthday My Love",
   subtitle: "You mean everything to me",
