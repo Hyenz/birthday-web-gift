@@ -4,6 +4,7 @@ A romantic, interactive birthday surprise website built to celebrate someone tru
 
 This project is designed as a personalized digital gift featuring animations, memories, love messages, and interactive surprises.
 
+Make sure to FORK this repo in order to use this project
 ---
 
 ## 💖 Live Demo
