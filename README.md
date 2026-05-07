@@ -46,10 +46,10 @@ All content is managed in a single configuration file for easy editing:
 ```js
 // lib/config.ts
 export const config = {
-  girlfriendName: "Hyenz",
-  heroTitle: "Happy Birthday My Love",
-  subtitle: "You mean everything to me",
-  loveMessage: `My dearest love,
+  girlfriendName: "Hyenz", // Replace this part
+  heroTitle: "Happy Birthday My Love", // Replace this part
+  subtitle: "You mean everything to me", // Replace this part
+  loveMessage: `My dearest love, // Replace this part
 
 Every moment with you feels like a beautiful dream I never want to wake up from. From the first time our eyes met, I knew my heart had found its home.
 
@@ -62,9 +62,9 @@ Thank you for being you. Thank you for loving me. Thank you for making my life c
 Happy Birthday, my love. Today and always, you are the most beautiful person in my world.
 
 Forever yours,
-With all my heart and soul`,
-  galleryImages: [
-    { url: "/images/photo1.jpg", caption: "Our first date" }, // Replace image and caption
+With all my heart and soul`, // Replace this part
+  galleryImages: [ // (create a folder under lib/images/photo1.jpg { only in jpg format } )
+    { url: "/images/photo1.jpg", caption: "Our first date" }, // Replace image and caption 
     { url: "/images/photo2.jpg", caption: "That magical sunset" }, // Replace image and caption
     { url: "/images/photo3.jpg", caption: "Your beautiful smile" }, // Replace image and caption
     { url: "/images/photo4.jpg", caption: "Our adventure together" }, // Replace image and caption
@@ -100,9 +100,8 @@ With all my heart and soul`,
   ],
   surpriseMessage:
     "You are my everything, my forever, my always. I love you more than words could ever express.", // Replace this
-  backgroundMusic: "/music/romantic.mp3", // Replace this (must be in mp3 format)
+  backgroundMusic: "/music/romantic.mp3", // Replace this (create a folder under lib/music/ and name it as romantic { only in mp3 format } ) (must be in mp3 format)
   credit: {
     text: "Made with love by Hyenz",  // LICENSE x CREDIT || You are not allowed to change this form
     link: "https://hyenz.is-a.dev", // LICENSE x CREDIT || You are not allowed to change this form
   },
-};
