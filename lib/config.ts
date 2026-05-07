@@ -2,7 +2,7 @@ export const config = {
   girlfriendName: "Hyenz", // Replace this part
   heroTitle: "Happy Birthday My Love", // Replace this part
   subtitle: "You mean everything to me", // Replace this part
-  loveMessage: `My dearest love, // Replace this part
+  loveMessage: `My dearest love, 
 
 Every moment with you feels like a beautiful dream I never want to wake up from. From the first time our eyes met, I knew my heart had found its home.
 
