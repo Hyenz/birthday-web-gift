@@ -44,12 +44,11 @@ This project is designed with performance in mind:
 All content is managed in a single configuration file for easy editing:
 
 ```js
-// lib/config.ts
 export const config = {
   girlfriendName: "Hyenz", // Replace this part
   heroTitle: "Happy Birthday My Love", // Replace this part
   subtitle: "You mean everything to me", // Replace this part
-  loveMessage: `My dearest love, // Replace this part
+  loveMessage: `My dearest love, 
 
 Every moment with you feels like a beautiful dream I never want to wake up from. From the first time our eyes met, I knew my heart had found its home.
 
@@ -63,13 +62,13 @@ Happy Birthday, my love. Today and always, you are the most beautiful person in 
 
 Forever yours,
 With all my heart and soul`, // Replace this part
-  galleryImages: [ // (create a folder under lib/images/photo1.jpg { only in jpg format } )
-    { url: "/images/photo1.jpg", caption: "Our first date" }, // Replace image and caption 
-    { url: "/images/photo2.jpg", caption: "That magical sunset" }, // Replace image and caption
-    { url: "/images/photo3.jpg", caption: "Your beautiful smile" }, // Replace image and caption
-    { url: "/images/photo4.jpg", caption: "Our adventure together" }, // Replace image and caption
-    { url: "/images/photo5.jpg", caption: "The day I knew" }, // Replace image and caption
-    { url: "/images/photo6.jpg", caption: "Forever in my heart" }, // Replace image and caption
+  galleryImages: [ // (navigate to images folder under public/images/ and upload your images there.
+    { url: "/images/photo1.jpg", caption: "Our first date" }, // Replace image and caption. Note that if ur picture file name is different, please rename it as correct picture name with correct format.
+    { url: "/images/photo2.jpg", caption: "That magical sunset" }, // Replace image and caption. Note that if ur picture file name is different, please rename it as correct picture name with correct format.
+    { url: "/images/photo3.jpg", caption: "Your beautiful smile" }, // Replace image and caption. Note that if ur picture file name is different, please rename it as correct picture name with correct format.
+    { url: "/images/photo4.jpg", caption: "Our adventure together" }, // Replace image and caption. Note that if ur picture file name is different, please rename it as correct picture name with correct format.
+    { url: "/images/photo5.jpg", caption: "The day I knew" }, // Replace image and caption. Note that if ur picture file name is different, please rename it as correct picture name with correct format.
+    { url: "/images/photo6.jpg", caption: "Forever in my heart" }, // Replace image and caption. Note that if ur picture file name is different, please rename it as correct picture name with correct format.
   ],
   timelineEvents: [
     {
@@ -100,8 +99,8 @@ With all my heart and soul`, // Replace this part
   ],
   surpriseMessage:
     "You are my everything, my forever, my always. I love you more than words could ever express.", // Replace this
-  backgroundMusic: "/music/romantic.mp3", // Replace this (create a folder under lib/music/ and name it as romantic { only in mp3 format } ) (must be in mp3 format)
+  backgroundMusic: "/music/daisy.mp3", // Replace this navigate to public/music folder and upload your music there. Make sure to rename it to your uploaded file nama with correct format.
   credit: {
-    text: "Made with love by Hyenz",  // LICENSE x CREDIT || You are not allowed to change this form
-    link: "https://hyenz.is-a.dev", // LICENSE x CREDIT || You are not allowed to change this form
+    text: "Made with love by Hyenz",  // LICENSE || You are not allowed to change this form
+    link: "https://hyenz.is-a.dev", // LICENSE || You are not allowed to change this form
   },
