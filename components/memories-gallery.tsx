@@ -90,7 +90,7 @@ export function MemoriesGallery() {
           viewport={{ once: true }}
           className="text-center text-muted-foreground/60 text-sm mt-8"
         >
-          Add your photos to the /public/images folder
+          Happy to add more photos here in the future! For now, these are some of our cherished moments together.
         </motion.p>
       </div>
 
