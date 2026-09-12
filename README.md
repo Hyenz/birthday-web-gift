@@ -99,7 +99,7 @@ With all my heart and soul`, // Replace this part
   ],
   surpriseMessage:
     "You are my everything, my forever, my always. I love you more than words could ever express.", // Replace this
-  backgroundMusic: "/music/daisy.mp3", // Replace this navigate to public/music folder and upload your music there. Make sure to rename it to your uploaded file nama with correct format.
+  backgroundMusic: "/music/daisy.mp3", // Replace this navigate to public/music folder and upload your music there. Make sure to rename it to your uploaded file name with correct format.
   credit: {
     text: "Made with love by Hyenz",  // LICENSE || You are not allowed to change this form
     link: "https://hyenz.is-a.dev", // LICENSE || You are not allowed to change this form
